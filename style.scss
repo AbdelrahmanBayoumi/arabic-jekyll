@@ -37,7 +37,12 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $darkerGray;
   font-weight: bold;
 
@@ -78,12 +83,14 @@ a {
   color: $blue;
   text-decoration: none;
   cursor: pointer;
-  &:hover, &:active {
+  &:hover,
+  &:active {
     color: $blue;
   }
 }
 
-ul, ol {
+ul,
+ol {
   margin: 15px 0;
   padding-right: 30px;
 }
@@ -96,19 +103,25 @@ ol {
   list-style-type: arabic-indic;
 }
 
-ol ul, ul ol, ul ul, ol ol {
+ol ul,
+ul ol,
+ul ul,
+ol ol {
   margin: 0;
 }
 
-ul ul, ol ul {
+ul ul,
+ol ul {
   list-style-type: circle;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
-strong, b {
+strong,
+b {
   font-weight: bold;
 }
 
@@ -119,7 +132,7 @@ img {
 }
 
 blockquote {
-  margin: 1.8em .8em;
+  margin: 1.8em 0.8em;
   border-right: 2px solid $gray;
   padding: 0.1em 1em;
   color: $gray;
@@ -234,7 +247,9 @@ nav {
 }
 
 .not-found {
-  img { width: 400px; }
+  img {
+    width: 400px;
+  }
 }
 
 //
@@ -294,29 +309,50 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
-  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-
 
 //
 // FOUT fonts
 //
 
 .naskh-font-loaded {
-  body { font-family: $body-font-family; }
+  body {
+    font-family: $body-font-family;
+  }
 }
 
 .kufi-font-loaded {
-  h1, h2, h3, h4, h5, h6 { font-family: $heading-font-family; }
-  .site-name             { font-family: $heading-font-family; }
-  nav                    { font-family: $heading-font-family; }
-  .read-more             { font-family: $heading-font-family; }
-  .date                  { font-family: $heading-font-family; }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $heading-font-family;
+  }
+  .site-name {
+    font-family: $heading-font-family;
+  }
+  nav {
+    font-family: $heading-font-family;
+  }
+  .read-more {
+    font-family: $heading-font-family;
+  }
+  .date {
+    font-family: $heading-font-family;
+  }
 }
 
 .kawkab-font-loaded {
-  code { font-family: $code-font-family; }
+  code {
+    font-family: $code-font-family;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
