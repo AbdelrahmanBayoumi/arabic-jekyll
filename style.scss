@@ -46,9 +46,6 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-
-  background-color: var(--primary);
-  color: white;
 }
 
 h1,
@@ -179,11 +176,13 @@ blockquote {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-color: var(--primary);
+  color: #fff;
+  box-shadow: 1px 2px 3px #ccc;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -332,9 +331,7 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: var(--primary);
 }
 
 footer {
@@ -343,10 +340,9 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background-color: var(--primary);
-  color: white;
 
   i {
+    color: white;
     &:hover {
       color: var(--dark);
       cursor: pointer;
