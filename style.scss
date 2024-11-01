@@ -218,7 +218,7 @@ blockquote {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: white;
   cursor: pointer;
   font-weight: normal;
   font-size: 28px;
@@ -226,7 +226,7 @@ blockquote {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: white;
   font-size: 16px;
 
   @include mobile {
@@ -263,7 +263,7 @@ nav {
 
   a {
     margin-right: 20px;
-    color: $darkGray;
+    color: white;
     text-align: left;
     font-weight: normal;
 
