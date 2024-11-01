@@ -3,8 +3,8 @@
   font-style: normal;
   font-weight: 400;
   src: url("fonts/NotoNaskhArabic-Regular.woff2") format("woff2"),
-       url("fonts/NotoNaskhArabic-Regular.woff") format("woff"),
-       url("fonts/NotoNaskhArabic-Regular.ttf") format("truetype");
+    url("fonts/NotoNaskhArabic-Regular.woff") format("woff"),
+    url("fonts/NotoNaskhArabic-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 700;
   src: url("fonts/NotoNaskhArabic-Bold.woff2") format("woff2"),
-       url("fonts/NotoNaskhArabic-Bold.woff") format("woff"),
-       url("fonts/NotoNaskhArabic-Bold.ttf") format("truetype");
+    url("fonts/NotoNaskhArabic-Bold.woff") format("woff"),
+    url("fonts/NotoNaskhArabic-Bold.ttf") format("truetype");
 }
 
 @font-face {
@@ -21,8 +21,8 @@
   font-style: normal;
   font-weight: 400;
   src: url("fonts/NotoKufiArabic-Regular.woff2") format("woff2"),
-       url("fonts/NotoKufiArabic-Regular.woff") format("woff"),
-       url("fonts/NotoKufiArabic-Regular.ttf") format("truetype");
+    url("fonts/NotoKufiArabic-Regular.woff") format("woff"),
+    url("fonts/NotoKufiArabic-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -30,8 +30,8 @@
   font-style: normal;
   font-weight: 700;
   src: url("fonts/NotoKufiArabic-Bold.woff2") format("woff2"),
-       url("fonts/NotoKufiArabic-Bold.woff") format("woff"),
-       url("fonts/NotoKufiArabic-Bold.ttf") format("truetype");
+    url("fonts/NotoKufiArabic-Bold.woff") format("woff"),
+    url("fonts/NotoKufiArabic-Bold.ttf") format("truetype");
 }
 
 @font-face {
@@ -39,6 +39,43 @@
   font-style: normal;
   font-weight: 400;
   src: url("fonts/KawkabMono-Regular.woff2") format("woff2"),
-       url("fonts/KawkabMono-Regular.woff") format("woff"),
-       url("fonts/KawkabMono-Regular.ttf") format("truetype");
+    url("fonts/KawkabMono-Regular.woff") format("woff"),
+    url("fonts/KawkabMono-Regular.ttf") format("truetype");
+}
+
+// Tajawal font
+
+@font-face {
+  font-family: "Tajawal";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/Tajawal-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Tajawal";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/Tajawal-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Tajawal";
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/Tajawal-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Tajawal";
+  font-style: normal;
+  font-weight: 500;
+  src: url("fonts/Tajawal-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Tajawal";
+  font-style: Black;
+  font-weight: 900;
+  src: url("fonts/Tajawal-Black.ttf") format("truetype");
 }
