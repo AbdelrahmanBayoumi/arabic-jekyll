@@ -339,10 +339,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 
   i {
     color: white;
+    font-size: 16px;
     &:hover {
       cursor: pointer;
       transition: all ease 0.3s;
