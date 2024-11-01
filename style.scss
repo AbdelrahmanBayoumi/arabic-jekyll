@@ -18,6 +18,17 @@ html {
   direction: rtl;
   font-size: 100%;
   height: 100%;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+:root {
+  --bg-color: #f5f7fe;
+  --light-blue: #5296cf;
+  --primary: #33485d;
+  --dark: #1e2b3c;
+  --green: #28a745;
+  --teal: #20c997;
 }
 
 body {
@@ -314,6 +325,15 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 10px;
+
+  i {
+    color: var(--light-blue);
+
+    &:hover {
+      color: var(--dark);
+      cursor: pointer;
+    }
+  }
 }
 
 //
