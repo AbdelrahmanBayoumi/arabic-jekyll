@@ -7,7 +7,7 @@ title: تاريخ الخط العربي منذ ظهور الإسلام
 
 كانت تُكتب العربية قديمًا دونَ نَقطٍ أو تشكيل
 
-![*رسالة النبي إلى هرقل*]({{ site.baseurl }}/images/posts/message_from_prophet.png)
+![*رسالة النبي ﷺ إلى هرقل*]({{ site.baseurl }}/images/posts/message_from_prophet.png)
 
 _رسالة النبي إلى هرقل_
 
